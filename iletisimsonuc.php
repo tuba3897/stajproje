@@ -36,7 +36,7 @@ if(($GelenIsimSoyisim!="")and ($GelenEmailAdresi!="")and ($GelenTelefonNumarasi!
     try {
     $MailGonder->SMTPDebug = 0;   
     $MailGonder->isSMTP();                  
-    $MailGonder->Host       = DonusumleriGeriDondur($SiteEmailHostAdresi);
+    $MailGonder->Host       = DonusumleriGeriDondur($SiteEmailHostAdresi);  
     $MailGonder->SMTPAuth   = true;
     $MailGonder->CharSet    = "UTF-8";
     $MailGonder->Username   = DonusumleriGeriDondur($SiteEmailAdresi);                
@@ -62,8 +62,7 @@ if(($GelenIsimSoyisim!="")and ($GelenEmailAdresi!="")and ($GelenTelefonNumarasi!
     header("Location:index.php?SK=7");
     exit(); 
 }
-}
-else{
+}else{
     header("Location:index.php?SK=8");
     exit();
 }

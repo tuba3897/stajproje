@@ -40,8 +40,6 @@ $Metinler  =$MetinlerSorgusu->fetch(PDO::FETCH_ASSOC);
 if($MetinlerSayisi>0){
     
     $TanitimMetni    =  $Metinler["TanitimMetni"];
-    $DuyurularMetni  =  $Metinler["DuyurularMetni"];
-    $HaberlerMetni   =  $Metinler["HaberlerMetni"];
     
 } else {
     echo "Site Ayar Sorgusu Hatalı";

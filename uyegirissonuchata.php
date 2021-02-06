@@ -3,7 +3,7 @@
         <td>&nbsp;</td>
     </tr>
     <tr height="100">
-        <td align="center"><img src="Resimler/" border="0"></td>
+        <td align="center"><img src="Resimler/basarisiz.PNG" border="0"></td>
     </tr>
     <tr height="50">
         <td align="center"><b>HATA.Uye girisi yapilamadi.</b></td>

@@ -8,6 +8,22 @@
     <tr>
         <td>&nbsp;</td>
     </tr>
-    <tr>
-        <td align="left"><?php echo DonusumleriGeriDondur($HaberlerMetni);?></td>
-    </tr>
+    <tr height="30">
+        <td><?php
+        $HaberSorgusu  =$VeritabaniBaglantisi->prepare("SELECT * FROM haberler");
+        $HaberSorgusu->execute();
+        $HaberSayisi   =$HaberSorgusu->rowCount();
+        $HaberKayitlari=$HaberSorgusu->fetchAll(PDO::FETCH_ASSOC);
+        
+        foreach ($HaberKayitlari as $Kayitlar){  
+        ?>
+        <div>
+            <div class="SorununBaslikAlani" ><?php echo $Kayitlar["HaberBaslik"];?></div>
+            <div class="SorununCevapAlani"><?php echo $Kayitlar["HaberMetni"];?></div>
+        </div>
+        <?php
+         }
+        ?>
+        </td>
+    </tr>    
+</table>
