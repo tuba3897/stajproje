@@ -25,6 +25,7 @@ if(isset($_REQUEST["SK"])){
     <script type="text/javascript" src="Frameworks/JQuery/jquery-3.5.1.min.js" language="javascript"></script>
     <link type="text/css" rel="stylesheet" href="Ayarlar/still.css">
     <script type="text/javascript" src="Ayarlar/fonksiyonlar.js" language="javascript"></script>
+
 </head>
 <body> 
     <table width="1065" height="100%" align="center" border="0" cellpadding="0" cellspacing="0" >
