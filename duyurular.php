@@ -11,3 +11,4 @@
     <tr>
         <td align="left"><?php echo DonusumleriGeriDondur($DuyurularMetni);?></td>
     </tr>
+</table>

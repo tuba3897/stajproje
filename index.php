@@ -25,9 +25,8 @@ if(isset($_REQUEST["SK"])){
     <script type="text/javascript" src="Frameworks/JQuery/jquery-3.5.1.min.js" language="javascript"></script>
     <link type="text/css" rel="stylesheet" href="Ayarlar/still.css">
     <script type="text/javascript" src="Ayarlar/fonksiyonlar.js" language="javascript"></script>
-
 </head>
-<body>
+<body> 
     <table width="1065" height="100%" align="center" border="0" cellpadding="0" cellspacing="0" >
 <tr height="110">
     <td>
@@ -35,7 +34,7 @@ if(isset($_REQUEST["SK"])){
             <tr bgcolor="#0088CC">
                 <td>&nbsp;</td>
                 <td width="20"><a href="xxxx"><img src="Resimler/login.PNG" border="0" style="margin-top:5px;"><a/></td>
-                <td width="100" class="MaviAlanMenusu"><a href="xxxx">Uye Girisi</a></td>
+                <td width="100" class="MaviAlanMenusu"><a href="index.php?SK=10">Uye Girisi</a></td>
             </tr>
         </table>
         
@@ -46,11 +45,11 @@ if(isset($_REQUEST["SK"])){
                    <table width="750" height="30" align="center" border="0" cellpadding="0" cellspacing="0" >
                    <tr>  
                        <td width="50" class="MaviAlanMenusu"><a href="index.php?SK=0"><b>ANASAYFA</b></a></td>
-                       <td width="50" class="MaviAlanMenusu"><a href="xxxx"><b>KISILER</b></a></td>
-                       <td width="50" class="MaviAlanMenusu"><a href="xxxx"><b>YAYINLAR</b></a></td>
-                       <td width="50" class="MaviAlanMenusu"><a href="xxxx"><b>PROJELER</b></a></td>
-                       <td width="50" class="MaviAlanMenusu"><a href="xxxx"><b>DATA</b></a></td>
-                       <td width="50" class="MaviAlanMenusu"><a href="xxxx"><b>ILETISIM</b></a></td>
+                       <td width="50" class="MaviAlanMenusu"><a href="index.php?SK=17"><b>KISILER</b></a></td>
+                       <td width="50" class="MaviAlanMenusu"><a href="index.php?SK=18"><b>YAYINLAR</b></a></td>
+                       <td width="50" class="MaviAlanMenusu"><a href="index.php?SK=20"><b>PROJELER</b></a></td>
+                       <td width="50" class="MaviAlanMenusu"><a href="index.php?SK=22"><b>DATA</b></a></td>
+                       <td width="50" class="MaviAlanMenusu"><a href="index.php?SK=4"><b>ILETISIM</b></a></td>
                    </tr>
                    </table>   
                 </td>      
@@ -70,11 +69,13 @@ if(isset($_REQUEST["SK"])){
                       include($Sayfa[$SayfaKoduDegeri]);
                   }
                   ?></td>
-            </tr>
+            </tr> 
         </table>
     </td>
 </tr>
 
+         
+          
 <tr height="150">
     <td><br/>
          <table width="1065" align="center" border="0" cellpadding="0" cellspacing="0" bgcolor="#F9F9F9" >
@@ -91,9 +92,9 @@ if(isset($_REQUEST["SK"])){
             <tr height="30">  
                <td class="AltMenu">&nbsp;<a href="index.php?SK=1">Tanitim</a></td>
                <td>&nbsp;</td>
-               <td class="AltMenu"><a href="xxxx">Uye Girisi</a></td>
+               <td class="AltMenu"><a href="index.php?SK=10">Uye Girisi</a></td>
                <td>&nbsp;</td>
-               <td class="AltMenu"><a href="xxxx">Projeler</a></td>
+               <td class="AltMenu"><a href="index.php?SK=20">Projeler</a></td>
                <td>&nbsp;</td>
                <td><table width="250" align="center" border="0" cellpadding="0" cellspacing="0">
                        <tr>
@@ -106,9 +107,9 @@ if(isset($_REQUEST["SK"])){
             <tr height="30">  
                 <td class="AltMenu">&nbsp;<a href="index.php?SK=2">Duyurular</a></td>
                <td>&nbsp;</td>
-               <td class="AltMenu"><a href="xxxx">Uyeler</a></td>
+               <td class="AltMenu"><a href="index.php?SK=17">Uyeler</a></td>
                <td>&nbsp;</td>
-               <td class="AltMenu"><a href="xxxx">Veriler</a></td>
+               <td class="AltMenu"><a href="index.php?SK=22">Veriler</a></td>
                <td>&nbsp;</td>
                <td><table width="250" align="center" border="0" cellpadding="0" cellspacing="0">
                        <tr>
@@ -121,9 +122,9 @@ if(isset($_REQUEST["SK"])){
             <tr height="30">  
                 <td class="AltMenu">&nbsp;<a href="index.php?SK=3">Haberler</a></td>
                <td>&nbsp;</td>
-               <td class="AltMenu"><a href="xxxx">Sik Sorulan Sorular</a></td>
+               <td class="AltMenu"><a href="index.php?SK=9">Sik Sorulan Sorular</a></td>
                <td>&nbsp;</td>
-               <td class="AltMenu"><a href="xxxx">Yayinlar</a></td>
+               <td class="AltMenu"><a href="index.php?SK=18">Yayinlar</a></td>
                <td>&nbsp;</td>
                <td class="AltMenu"><table width="250" align="center" border="0" cellpadding="0" cellspacing="0">
                        <tr>

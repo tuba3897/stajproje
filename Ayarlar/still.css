@@ -39,15 +39,6 @@ html,body{
     text-decoration: none;
 }
 
-/*.altfooter {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:120px;    footer yüksekliði 
-   background:#6cf;
-   text-align:center;
-}*/
-
 .InputAlanlari{
     width:95%;
     height:30px;
@@ -75,4 +66,62 @@ html,body{
     padding: 10px 10px;
     color: black;
     cursor: pointer;
+}
+
+.SorununBaslikAlani{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 1px dashed #CCCCCC;
+    cursor: pointer;    
+}
+
+.SorununBaslikAlani:hover{
+    background: #F1F1F1;
+    cursor: pointer;    
+}
+
+.SorununCevapAlani{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 14px;
+    line-height: 1.5;   
+}
+
+.YayinAlani{
+    width: 100%;
+    height: 30px;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none;
+    border-bottom: 1px dashed #CCCCCC;
+    cursor: pointer; 
+    background: #F1F1F1;
+}
+
+.YayinAlani:hover{
+    background: #F1F1F1;
+    cursor: pointer;    
+}
+
+.SifremiUnutumFormu a:link,.SifremiUnutumFormu a:hover,.SifremiUnutumFormu a:active ,.SifremiUnutumFormu a:visited{
+    font-family: "Open Sans", Arial, "Helvetica Neue", Helvetiaca, "sans-serif";
+    font-size: 14px;
+    color: #646464;
+    line-height: 1.5;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    text-decoration: none;
 }

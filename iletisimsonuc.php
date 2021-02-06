@@ -8,12 +8,6 @@ require 'Frameworks/PHPMailer/src/SMTP.php';
 
 
 if(isset($POST["IsimSoyisim"])){
-    $GelenIsimSoyisim=$POST["IsimSoyisim"];
-}else{
-    $GelenIsimSoyisim="";
-}
-
-if(isset($POST["IsimSoyisim"])){
     $GelenIsimSoyisim=Guvenlik($POST["IsimSoyisim"]);
 }else{
     $GelenIsimSoyisim="";
